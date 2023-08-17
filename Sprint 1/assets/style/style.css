@@ -1,0 +1,82 @@
+:root{
+    --primary-color : rgb(192, 33, 80);
+    --second-color: rgb(36, 35, 35);
+    --third-color: rgb(26, 25, 25);
+    --fourty-color: rgb(20, 22, 22);
+}
+.logo{
+    width: 85px;
+    height: 25px;
+}
+a>.logo:hover{
+    background-color: none;
+}
+.pri-color{
+    background-color: var(--primary-color);
+}
+.sec-color{
+    background-color: var(--second-color) !important;
+}
+.link-color{
+    color: var(--primary-color) !important;
+}
+main{
+    min-height: 85vh;
+    background-color: var(--third-color) !important;
+}
+.border-bottom{
+    border-bottom:1px var(--primary-color) solid !important;
+}
+.border-top{
+    border-top:1px var(--primary-color) solid !important;
+}
+.active, .link-color:hover{
+    color: white !important;
+    background-color: var(--primary-color);
+}
+.carousel-item{
+    height: 25vh;
+}
+label{
+    color: var(--primary-color);
+}
+.sch-btn:hover{
+    background-color: var(--primary-color);
+}
+i{
+    color: white;
+}
+.card{
+    opacity: .5;
+    background-color: var(--fourty-color)!important;
+}
+.card:hover{
+    border-color: var(--primary-color) !important;
+    opacity: 1;
+    cursor: pointer;
+}
+.card-container{
+    max-width: 100%;
+}
+.btn-primary{
+    background-color: var(--second-color);
+    border-color: var(--primary-color);
+}
+.btn-primary:hover{
+    background-color: var(--primary-color);
+    border-color: var(--second-color);
+}
+footer{
+    margin-bottom: 0;
+    height: 11.5vh;
+    background-color: var(--second-color) !important;
+}
+.links-footer{
+    text-decoration: none;
+}
+.links-footer>img:hover{
+    transform: scale(1.2);
+}
+.cohorte{
+    color: var(--primary-color);
+}
