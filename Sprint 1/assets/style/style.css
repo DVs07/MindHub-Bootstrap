@@ -67,7 +67,6 @@ i{
     border-color: var(--second-color);
 }
 footer{
-    margin-bottom: 0;
     height: 11.5vh;
     background-color: var(--second-color) !important;
 }
@@ -76,6 +75,9 @@ footer{
 }
 .links-footer>img:hover{
     transform: scale(1.2);
+}
+.shadow{
+    background-color: var(--primary-color);
 }
 .cohorte{
     color: var(--primary-color);
