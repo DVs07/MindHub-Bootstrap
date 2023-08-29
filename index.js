@@ -22,7 +22,9 @@ function viewCard(data, container){
 
 
 function createCard(objeto){
-    return `<div class="card text-bg-dark text-center" style="width: auto;" >
+    return `
+    <div id="card-container" class="col-sm-12 col-lg-3 col-md-6 mb-3 mt-3 mb-sm-4">
+    <div class="card text-bg-dark text-center" style="width: auto;" >
     <img src="${objeto.image}" class="card-img-top" alt="...">
     <div class="card-body">
         <h5 class="card-title">${objeto.name}</h5>
@@ -34,5 +36,6 @@ function createCard(objeto){
         <span>$ ${objeto.price}</span>
         <a href="./assets/pages/details.html" class="btn btn-primary ">Details</a>                        
     </div>
-</div>`
+    </div>
+    </div>`
 }
